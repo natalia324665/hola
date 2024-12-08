@@ -1,5 +1,5 @@
 import streamlit as st
-st.markdown("<h1 style='color: #80D9FF;'>🎨Presentació personal</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: #80D9FF;'>🎨Presentación personal</h1>", unsafe_allow_html=True)
 
 #justificado el texto con HTML
 st.markdown("""
