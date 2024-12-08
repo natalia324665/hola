@@ -1,6 +1,5 @@
 import streamlit as st
 import sympy as sy
-
 # Estilos personalizados con fondo de examen
 st.markdown(
     """

@@ -1,5 +1,4 @@
 import streamlit as st
-
 # Custom CSS for design improvements
 st.markdown(
     """

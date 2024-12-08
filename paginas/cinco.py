@@ -1,39 +1,35 @@
 import streamlit as st
+#titulo de la aplicación
+st.title("Referencias")
+#lista de referencias
 
-import streamlit as st
-
-# Título de la aplicación
-st.title("Referencias ")
-
-# Lista de referencias
-referencias = [
+referencias=[
     {
-        "Autor": "Wikipedia",
-        "Título": "Teorema del valor medio",
-        "Año": 2024
+        "Autor":"Wikipedia",
+        "Título":"Teorema del valor medio",
+        "Año":2024
     },
     {
-        "Autor": "OpenStax",
-        "Título": "El teorema del valor medio - Cálculo volumen 1",
-        "Año": 2022
+        "Autor":"OpenStax",
+        "Título":"El teorema del valor medio - Cálculo volumen 1",
+        "Año":2022
     },
     {
-        "Autor": "González, Mauricio",
-        "Título": "Una aplicación poco frecuente: teorema del valor medio para integrales aplicado a ingeniería química",
-        "Año": 2005
+        "Autor":"González, Mauricio",
+        "Título":"Una aplicación poco frecuente: teorema del valor medio para integrales aplicado a ingeniería química",
+        "Año":2005
     },
     {
-        "Autor": "Martínez de la Rosa, Félix",
-        "Título": "Panorámica de los Teoremas de Valor Medio",
-        "Año": 2024
+        "Autor":"Martínez de la Rosa, Félix",
+        "Título":"Panorámica de los Teoremas de Valor Medio",
+        "Año":2024
     },
     {
-        "Autor": "Navia Lora, Mauricio",
-        "Título": "El Teorema del Valor Intermedio y la Completitud de los Reales",
-        "Año": 2001
+        "Autor":"Navia Lora, Mauricio",
+        "Título":"El Teorema del Valor Intermedio y la Completitud de los Reales",
+        "Año":2001
     }
 ]
-
-# Mostrar las referencias en la aplicación
+#mostrar las referencias en la aplicacion 
 for ref in referencias:
-    st.write(f"{ref['Autor']}. *{ref['Título']}* ({ref['Año']})")
+    st.write(f"{ref['Autor']} ({ref['Año']}) - {ref['Título']}")
