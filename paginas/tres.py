@@ -6,7 +6,7 @@ import sympy as sy
 # Título y descripción del ejemplo
 st.title("🧮 Ejemplos Interactivos del Teorema")
 st.markdown("""
-En estos ejemplos, puedes introducir una función y ajustar los valores del intervalo `[a, b]`. El sistema calculará automáticamente el punto `c` que cumple con el **Teorema del Valor Medio** y mostrará la gráfica correspondiente.
+En estos ejemplos, puedes introducir una función y ajustar los valores del intervalo [a, b]. El sistema calculará automáticamente el punto c que cumple con el *Teorema del Valor Medio* y mostrará la gráfica correspondiente.
 """)
 
 
@@ -114,8 +114,8 @@ st.divider()
 # Título y descripción del ejemplo
 st.title("🧮 Ejemplo de una función que no cumple el Teorema del Valor Medio")
 st.markdown("""
-En este ejemplo, utilizamos una función **no derivable** dentro del intervalo. 
-Esto rompe uno de los requisitos clave del **Teorema del Valor Medio**, lo que lo hace inválido.
+En este ejemplo, utilizamos una función *no derivable* dentro del intervalo. 
+Esto rompe uno de los requisitos clave del *Teorema del Valor Medio*, lo que lo hace inválido.
 """)
 
 # Configuración inicial
@@ -167,6 +167,3 @@ ax.set_ylabel("$f(x)$")
 # Mostrar el gráfico en Streamlit
 with c2:
     st.pyplot(fig)
-
-
-

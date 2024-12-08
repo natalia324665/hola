@@ -1,6 +1,3 @@
-
-
-
 import streamlit as st
 import sympy as sy
 
@@ -50,7 +47,7 @@ st.markdown('<div class="title">📝 Examen de Retroalimentación: Teorema del V
 
 # Descripción del examen
 st.markdown("""
-Este examen te ayudará a reforzar lo aprendido sobre el **Teorema del Valor Medio**. Responde las siguientes preguntas seleccionando la opción correcta.
+Este examen te ayudará a reforzar lo aprendido sobre el *Teorema del Valor Medio*. Responde las siguientes preguntas seleccionando la opción correcta.
 """)
 
 # Pregunta 1: Concepto básico del TVM
